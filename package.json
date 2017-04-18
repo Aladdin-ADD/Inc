@@ -4,7 +4,7 @@
   "description": "",
   "main": "inc.js",
   "scripts": {
-    "test": "node istanbul/lib/cli.js cover _mocha ./test/**/v8.*.test.js",
+    "test": "node istanbul cover _mocha ./test/**/v8.*.test.js",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {
